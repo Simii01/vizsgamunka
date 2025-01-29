@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+header{
+    width: 100%;
+    height: 50px;
+}
+
+.diszlec{
+    background-image: url('/images/Background1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+}
+
+nav{
+    font-size: 50px;
+    text-align: right;
+}
+
+.category_line , .Suit-Jacket, .Waistcoat, .Dress-Shirt, .Necktie-Belt, .Trousers, .Shoes {
+    height: 50px;
+    width: 100%;
+    border: none;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.category_line{
+    display: flex;
+    position: sticky;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    width: 100%;
+
+}
