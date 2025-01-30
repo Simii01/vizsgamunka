@@ -2,25 +2,102 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    
+    font-family: "Lustria", serif;
+}
+
+.blackheader{
+    color: white;
+    text-align: center;
+    background-color: black;
 }
 
 header{
     width: 100%;
-    height: 50px;
+    height: 70px;
+    display: flex;
+    align-items: center; 
+    justify-content: space-between; 
+    padding: 20px;
+    
+}
+
+header i{
+    font-size: 25px;
+}
+
+.fejlec{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.hamburger-menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    cursor: pointer;
+    width: 30px;
+    height: 25px;
+    background-color: white;
+}
+
+.hamburger-menu span {
+    display: block;
+    height: 4px;
+    background-color: black;
+    border-radius: 2px;
+    width: 100%;
+}
+
+.menu-toggle:checked~nav {
+    display: flex;
+}
+
+.iconok{
+    display: flex;
+}
+
+.icon-search, .icon-cart, .icon-user{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    transition: ease 500ms;
+    cursor: pointer;
+}
+
+.menu-toggle {
+    display: none;
+}
+
+.web_logo{
+    text-align: center;
+    justify-content: center;
+    font-size: 40px;
+    cursor: pointer;
+    position: absolute;
+    left: 825px;
 }
 
 .diszlec{
-    background-image: url('/images/Background1.png');
-    background-repeat: no-repeat;
+    background-image: url('../images/Background1.png');
+    background-repeat: repeat;
     background-size: cover;
-    height: 500px;
+    height: 800px;
 }
 
-nav{
-    font-size: 50px;
+.diszlec-text{
     text-align: right;
+    height: 800px;
+    font-size: 70px;
+    top: 50%;
+    right: 150px;
+    position: absolute;
+    color: white;
 }
+
 
 .category_line , .Suit-Jacket, .Waistcoat, .Dress-Shirt, .Necktie-Belt, .Trousers, .Shoes {
     height: 50px;
@@ -29,6 +106,7 @@ nav{
     background-color: black;
     color: white;
     text-align: center;
+    cursor: pointer;
 }
 
 .category_line{
@@ -39,4 +117,55 @@ nav{
     background-color: black;
     width: 100%;
 
+}
+
+.container {
+    width: 100%;
+    max-width: 100%;
+    
+}
+
+.row {
+    display: flex;
+    gap: 100px;
+    justify-content: space-between;
+    
+}
+
+.products{
+    margin-left: 60px;
+
+    
+}
+
+.card {
+    flex: 0 1 calc((100% - 40px) / 5);
+    background-color: white;
+    box-shadow: 0 2px 4px rgb(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+
+}
+
+.card:hover {
+    transform: scale(1.01);
+}
+
+.card img {
+    width: 100%;
+}
+
+.card-body {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    border-radius: inherit;
+    overflow: hidden;
+}
+
+.card-footer{
+    text-align: center;
+    cursor: pointer;
 }
