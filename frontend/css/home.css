@@ -78,7 +78,7 @@ header i{
     font-size: 40px;
     cursor: pointer;
     position: absolute;
-    left: 825px;
+    left: 900px;
 }
 
 .diszlec{
@@ -90,7 +90,6 @@ header i{
 
 .diszlec-text{
     text-align: right;
-    height: 800px;
     font-size: 70px;
     top: 50%;
     right: 150px;
@@ -129,23 +128,20 @@ header i{
     display: flex;
     gap: 100px;
     justify-content: space-between;
-    
 }
 
-.products{
-    margin-left: 60px;
 
-    
-}
 
 .card {
     flex: 0 1 calc((100% - 40px) / 5);
     background-color: white;
-    box-shadow: 0 2px 4px rgb(0, 0, 0, 0.1);
+    box-shadow: 5px 5px 5px 5px grey;
     display: flex;
     flex-direction: column;
     overflow: hidden;
-
+    padding: 20px;
+    margin: 20px;
+    
 }
 
 .card:hover {
@@ -163,9 +159,56 @@ header i{
     padding: 10px;
     border-radius: inherit;
     overflow: hidden;
+    text-align: center;
 }
 
 .card-footer{
     text-align: center;
+    cursor: pointer;
+    background-color: #DDDBDB;
+}
+
+.background-info{
+    display: flex;
+    width: 100%;
+    height: 370px;
+    background-image: url("../images/greybackground.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+}
+
+.background-sorttext{
+    width: 50%;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    font-size: 50px;
+}
+
+.background-longtext{
+    width: 50%;
+    color: white;
+    text-align: center;
+    font-size: 25px;
+}
+
+.footer{
+    display: flex;
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 200px;
+}
+
+.footer-NL{
+    width: 50%;
+}
+
+.footer-info{
+    width: 50%;
+}
+
+.btnNewsletter{
     cursor: pointer;
 }

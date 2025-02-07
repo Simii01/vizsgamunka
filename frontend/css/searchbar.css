@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+}
+.search-container {
+    position: relative;
+    width: 300px;
+}
+.search-box {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #333;
+    border-radius: 20px;
+    outline: none;
+}
+.search-button {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}

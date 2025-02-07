@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Lustria", serif;
+}
+
+.blackheader{
+    color: white;
+    text-align: center;
+    background-color: black;
+}
+
+header{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    align-items: center; 
+    justify-content: space-between; 
+    padding: 20px;
+    box-shadow: 5px 5px 5px 5px grey;
+}
+
+header i{
+    font-size: 25px;
+    
+}
+
+.fejlec{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.hamburger-menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    cursor: pointer;
+    width: 30px;
+    height: 25px;
+    background-color: white;
+}
+
+.hamburger-menu span {
+    display: block;
+    height: 4px;
+    background-color: black;
+    border-radius: 2px;
+    width: 100%;
+}
+
+.menu-toggle:checked~nav {
+    display: flex;
+}
+
+.iconok{
+    display: flex;
+}
+
+.icon-search, .icon-cart, .icon-user{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    transition: ease 500ms;
+    cursor: pointer;
+}
+
+.menu-toggle {
+    display: none;
+}
+
+.web_logo{
+    text-align: center;
+    justify-content: center;
+    font-size: 40px;
+    cursor: pointer;
+    position: absolute;
+    left: 900px;
+}
+
+.product{
+    display: flex;
+}
+
+.product-description{
+    display: flex;
+}
+
+.product{
+    display: flex;
+}
