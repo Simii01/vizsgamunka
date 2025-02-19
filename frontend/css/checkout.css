@@ -1,0 +1,48 @@
+body {
+    font-family: "Lustria", serif;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: #f5f5f5;
+}
+.container {
+    background: #C1C1C1;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    
+}
+.product-list {
+    width: 30%;
+}
+.product {
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+    background-color: white;
+    margin-top: 15px;
+}
+.product img {
+    width: 150px;
+    height: 160px;
+    background: #ccc;
+    margin-right: 10px;
+}
+.form-container {
+    width: 50%;
+}
+input, button {
+    min-width: 50%;
+    padding: 10px;
+    margin: 5px 0;
+    
+    box-shadow: 2px 2px 2px 2px  gray;
+}
+button {
+    background: black;
+    color: white;
+    cursor: pointer;
+
+}

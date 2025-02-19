@@ -193,22 +193,46 @@ header i{
     font-size: 25px;
 }
 
-.footer{
-    display: flex;
-    background-color: black;
+footer {
+    background: #000;
+    padding: 20px;
+    text-align: center;
+    border-top: 2px solid #222;
+}
+.newsletter h3 {
+    margin: 0;
+    font-size: 18px;
+}
+.newsletter p {
+    font-size: 14px;
+    color: #ccc;
+}
+.subscribe-box {
+    margin: 10px 0;
+}
+.subscribe-box input {
+    padding: 10px;
+    width: 250px;
+    border: none;
+    border-radius: 4px;
+}
+.subscribe-box button {
+    padding: 10px 15px;
+    background: red;
+    border: none;
     color: white;
-    width: 100%;
-    height: 200px;
-}
-
-.footer-NL{
-    width: 50%;
-}
-
-.footer-info{
-    width: 50%;
-}
-
-.btnNewsletter{
     cursor: pointer;
+    border-radius: 4px;
+}
+.contact-info p {
+    font-size: 12px;
+    color: #ccc;
+}
+.social-icons {
+    margin-top: 10px;
+}
+.social-icons a {
+    color: #fff;
+    margin: 0 5px;
+    font-size: 18px;
 }
